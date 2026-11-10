@@ -22,6 +22,12 @@
     </properties>
 
     <dependencies>
+        <!-- Health check: /actuator/health (lo usa Render) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- Capa web (Controller) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
